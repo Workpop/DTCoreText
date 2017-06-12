@@ -20,9 +20,7 @@ Pod::Spec.new do |spec|
   spec.prepare_command = <<-CMD
      cd ./Core/Source
      /usr/bin/xxd -i default.css default.css.c
-  CMD
-end
-  
+  CMD  
   spec.default_subspec = 'Extension'
 
   spec.subspec 'Extension' do |ap|
