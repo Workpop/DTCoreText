@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'DTCoreText'
+  spec.name         = 'DTCoreTextExtension'
   spec.version      = '1.6.17'
   spec.platform     = :ios, '4.3'
   spec.license      = 'BSD'
